@@ -1,0 +1,86 @@
+body {
+	margin: 0;
+	font-family: Raleway, san-serif;
+}
+
+#navBarFixed {
+	background-color: white;
+	height: 100px;
+	margin: 0;
+	position: fixed;
+	width: 100%;
+}
+
+.anubisLogo {
+	float: left;
+	width: 25%;
+}
+
+.logoImg {
+	height: 100px;
+	padding-left: 10px;
+}
+
+.navMenu {
+	display: flex;
+	float: right;
+}
+
+	.navMenu p {
+		color: #F8CD05;
+		font-size: 20px;
+		font-style:
+		font-weight: bolder;
+		padding: 20px 10px 0px 10px;
+		text-shadow: R: 248 G: 255 B: 55 ;
+
+	}
+
+		.navMenu p:hover {
+			color: black;
+		}
+
+		.navMenu p:nth-child(4) {
+			margin-right: 10px;
+		}
+
+#aboutSection {
+	clear: both;
+}
+
+.about {
+	background-image: url("../images/dog-walking-calm.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 500px;
+	padding-top: 100px;
+	background-attachment: fixed;
+}
+
+#servicesSection {
+	height: 500px;
+	background-color: yellow;
+}
+
+#testimonialsSection {
+	background-image: url("../images/dog-walking-fall.jpg");
+	height: 500px;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
