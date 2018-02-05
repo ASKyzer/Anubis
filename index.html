@@ -1,38 +1,218 @@
 <!DOCTYPE html>
-<html>
+<html lang="en" >
 <head>
-	<title>Anubis Dog Walking Services</title>
-	<link rel="stylesheet" type="text/css" href="css/styles.css">
-	<link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+  <meta charset="utf-8" />
+  <meta name="author" content="Script Tutorials" />
+  <title>Anubis</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+  <!-- attach CSS styles -->
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+  <link href="css/style.css" rel="stylesheet" />
 </head>
 <body>
-	<header id="navBarFixed">
-		<div class="anubisLogo">
-			<img class="logoImg" src="images/logo.jpg" alt="Anubis Logo">
-		</div>
-		<div class="navMenu">
-			<p>About</p>
-			<p>Services</p>
-			<p>Testimonials</p>
-			<p>Contact</p>
-		</div>
-	</header>
-	
-	<div id="aboutSection">
-		<div class="about">
-			<p>Welcome to Anubis Dog Walking Services.</p>
-			<p>My name is Randy.  Anubis is a mature, reliable neighborhood dog walking and home care service in NW Washington DC. I have over 10 years of experience and great references including the Vice President of the Humane Society. Licensed and bonded with Pet Sitters Associates LLC </p>
-		</div>
-	</div>
 
-	<div id="servicesSection">
-		<div>Services</div>
+  <!-- navigation panel -->
+  <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+    <div class="container-fluid">
+      <!-- Brand and toggle get grouped for better mobile display -->
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-collapse-main">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="index.html"> Anubis </a>
+        <!-- <a class="navbar-brand" href="index.html"> <img src="images/logo.jpg" height="50" alt="Anubis Logo"> </a> -->
+      </div>
 
-	</div>
+      <div class="collapse navbar-collapse" id="navbar-collapse-main">
+        <ul class="nav navbar-nav navbar-right">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#information">Testimonials</a></li>
+          <li><a href="#google_map">Contact</a></li>
+        </ul>
+      </div><!-- /.navbar-collapse -->
+    </div><!-- /.container-fluid -->
+  </nav>
 
-	<div id="testimonialsSection">
-		<div>Arf, arf, arf...</div>
-	</div>
+  <!-- first section - Home -->
+  <div id="home" class="home">
+    <div class="text-vcenter">
+      <h1>Anubis</h1>
+      <h3>Your neighborhood dog walking services</h3>
+      <a href="#about" class="btn btn-default btn-lg">Continue</a>
+    </div>
+  </div>
+  <!-- /first section -->
 
+  <!-- second section - About -->
+  <div id="about" class="pad-section">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-6">
+          <img src="images/logo.jpg" alt="" />
+        </div>
+        <div class="col-sm-6 text-center">
+          <h2>My name is Randy Goldberg</h2>
+          <p class="lead">Anubis D.C. is a mature, reliable neighborhood dog walker in NW, Washington DC. I have over 10 years of experience and great references including the Vice President of the Humane Society. I am also licensed and bonded with Pet Sitters Associates LLC </p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- /second section -->
+
+  <!-- third section - Services -->
+  <div id="services" class="pad-section">
+    <div class="container">
+      <h2 class="text-center">Our Services</h2> <hr />
+      <div class="row text-center">
+        <div class="col-sm-3 col-xs-6 service-col">
+          <i class="glyphicon glyphicon-usd"> </i>
+          <h4>Dog Walking</h4>
+          <p>
+            One Dog for 30 Minutes - $15
+            <br>
+            Each Additional Dog - $5
+          </p>
+        </div>
+        <div class="col-sm-3 col-xs-6 service-col">
+          <i class="glyphicon glyphicon-home"> </i>
+          <h4>Home Stay</h4>
+          <p>Home stays starts at $80 per day. No charge or additional dogs.</p>
+        </div>
+        <div class="col-sm-3 col-xs-6 service-col">
+          <i class="glyphicon glyphicon-plus-sign"> </i>
+          <h4>Medicine Administration</h4>
+          <p>
+            Additional with Walks - $5/dog
+            <br>
+            Administration Only - $10/visit
+          </p>
+        </div>
+        <div class="col-sm-3 col-xs-6 service-col">
+          <i class="glyphicon glyphicon-phone"> </i>
+          <h4>Emergency Dog Walking</h4>
+          <p>
+            With at least 15-30 minutes lead time...
+            <br>
+            $40 + $10/additional dogs
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- /third section -->
+
+  <!-- fourth section - Information -->
+  <div id="information" class="pad-section">
+    <div class="container">
+      <div class="row">
+        <h2 class="testimonials-heading">Testimonials</h2>
+        <div class="col-sm-6">
+          <div class="panel panel-default">
+            <div class="panel-heading">
+              <h2 class="panel-title">Joe and Kim - Dupont Circle</h2>
+            </div>
+            <div class="panel-body lead">
+              Randy is by far our first choice when we need a dog sitter. We have used his service on several occasions, the last one for a period of three weeks.  During that time, he kept the house neat and tidy and stayed in communication with us on a regular basis, eliminating the stress of leaving the dogs and house behind. Above all, Randy is trustworthy, and our dogs love him.  We would be happy to provide personal references upon request.
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-6">
+          <div class="panel panel-default">
+            <div class="panel-heading">
+              <h2 class="panel-title">Melanie M. - Adams Morgan</h2>
+            </div>
+            <div class="panel-body lead">
+              We've used Anubis several times and have been very happy with the service and care of our pets. The pet sitter is always great about giving updates while we are gone. Scheduling and payment is super easy We just can't put a price on our pets being so well cared for in our home while we're away - boarding was never a good option for us. We're very satisfied and will continue to work with Anubis.
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-sm-6">
+          <div class="panel panel-default">
+            <div class="panel-heading">
+              <h2 class="panel-title">J.C. - Columbia Heights</h2>
+            </div>
+            <div class="panel-body lead">
+              I have enjoyed a long and wonderful relationship with Anubis. I live alone and travel constantly. My two dogs are like my children, and I know I’ve got trusted friends to watch over them in my absence. When my beloved dog Miss Elo was sick with a long-term illness, and I had to take a couple of business trips, I asked Anubis to come by my apartment twice a day, to give her medicine and make sure she felt loved. They even called me several times to let me know how Miss Elo was feeling. I couldn’t have gone on those trips, without knowing Miss Elo was in capable and loving hands. To say these folks go the “extra mile” in caring for pets is an under-statement!
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-6">
+          <div class="panel panel-default">
+            <div class="panel-heading">
+              <h2 class="panel-title">Scott and Sarah S. - Shaw</h2>
+            </div>
+            <div class="panel-body lead">
+              I would like to give my glowing recommendation and praise Anubis. Randy was my pet sitter for two years while I lived in Washington, DC. I completely trusted him with the care of my two fur babies, Daphne and Gateway. Randy was not only honest, reliable, flexible, and available at short notice or emergency situations, he also showed enormous love and compassion for my pets. Often taking the time to sit and love them after a long walk in the park or around the neighborhood. My dogs loved Randy, looking forward to his visits they got excited at the mention of his name.
+              <br>
+              His rates are very reasonable for the services he renders. In fact as a busy person who felt somewhat guilty leaving her dogs in the care of another, I loved coming home to find Randy's journal entries into my pets day and goings on. I have complete trust in him being in my home and having access to my house key. Randy always did exactly what was asked of him and showed interest and knowledge in my pets, alerting me to potential medical or behavioral problems. My dogs needed the comfort of their own home and became very stressed in any kennel situation. Randy relieved this stress on me and and for them by providing exceptional service at an affordable rate. His never ending love and concern for my dogs will never be forgotten. I moved to Boston from DC which is the only reason Randy is not my pet sitter anymore. I would like to invite anyone with any questions or concerns to please send me an email.
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- /fourth section -->
+
+  <!-- fifth section -->
+  <div id="services" class="pad-section">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-12 text-center">
+          <h3>Let Anubis take care of all your pet care needs.</h3>
+          <br>
+          <h4>(202) 380-6850</h4>
+        </div>
+        <div class="col-sm-12 text-center form form-group">
+          <form method="POST" action="https://formspree.io/YOUREMAILHERE">
+            <div class="form-group">
+              <label for="formGroupExampleInput">Your name</label>
+              <input type="text" name="name" class="form-control" id="formGroupExampleInput" placeholder="Enter your name">
+            </div>
+            <div class="form-group">
+              <label for="exampleInputEmail1">Email address</label>
+              <input type="email" name="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter your email">
+              <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+            </div>
+            <div class="form-group">
+              <label for="exampleFormControlTextarea1">Your Message</label>
+              <textarea name="message" class="form-control" id="exampleFormControlTextarea1" rows="5" placeholder="Please enter your message here..."></textarea>
+           </div>
+            <button type="submit" class="btn btn-primary">Submit</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- /fifth section -->
+
+  <!-- google map -->
+  <div id="google_map"></div>
+  <!-- /google map -->
+
+  <!-- footer -->
+  <footer>
+    <hr />
+    <div class="container">
+      <p class="text-right">Copyright &copy; Anubis DC 2018</p>
+    </div>
+  </footer>
+  <!-- /footer -->
+
+  <!-- attach JavaScripts -->
+  <script src="js/jquery-1.10.2.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="//maps.google.com/maps/api/js?sensor=true"></script>
+  <script type="text/javascript" src="js/jquery.scrollTo.min.js"></script>
+  <script type="text/javascript" src="js/jquery.localScroll.min.js"></script>
+  <script src="js/main.js"></script>
 </body>
 </html>
